@@ -3,11 +3,6 @@ import { Carousel } from "react-responsive-carousel";
 
 import "./App.css";
 
-const contentStyle = {
-  height: "160px",
-  background: "gray",
-};
-
 function App() {
   return (
     <>
@@ -88,41 +83,6 @@ function App() {
           <div></div>
           <div className="explore-content">
             <div className="row">
-            <div className=" col-md-4 col-sm-6">
-                <div className="single-explore-item">
-                  <div>
-                    <Carousel showThumbs={false} dynamicHeight={true}>
-                      <img
-                        src="src/assets/images/cars/Toyota2.jpg"
-                        alt="explore image"
-                      />
-
-                      <img
-                        src="src/assets/images/cars/Toyota1.jpg"
-                        alt="explore image"
-                      />
-
-                      <img
-                        src="src/assets/images/cars/Toyota3.jpg"
-                        alt="explore image"
-                      />
-                    </Carousel>
-                  </div>
-                  <div className="single-explore-txt bg-theme-1">
-                    <h2>
-                      <a href="#">Toyota Prius Alpha</a>
-                    </h2>
-                    <p className="explore-rating-price">
-                      <span>Hybrid</span>
-                      <span className="explore-price-box">
-                        Price
-                        <span className="explore-price"> $12,500</span>
-                      </span>
-                      <span>Blue</span>
-                    </p>
-                  </div>
-                </div>
-              </div>
               <div className=" col-md-4 col-sm-6">
                 <div className="single-explore-item">
                   <div>
@@ -332,7 +292,41 @@ function App() {
                     </p>
                   </div>
                 </div>
-                
+              </div>
+              <div className=" col-md-4 col-sm-6">
+                <div className="single-explore-item">
+                  <div>
+                    <Carousel showThumbs={false} dynamicHeight={true}>
+                      <img
+                        src="src/assets/images/cars/Toyota2.jpg"
+                        alt="explore image"
+                      />
+
+                      <img
+                        src="src/assets/images/cars/Toyota1.jpg"
+                        alt="explore image"
+                      />
+
+                      <img
+                        src="src/assets/images/cars/Toyota3.jpg"
+                        alt="explore image"
+                      />
+                    </Carousel>
+                  </div>
+                  <div className="single-explore-txt bg-theme-1">
+                    <h2>
+                      <a href="#">Toyota Prius Alpha</a>
+                    </h2>
+                    <p className="explore-rating-price">
+                      <span>Hybrid</span>
+                      <span className="explore-price-box">
+                        Price
+                        <span className="explore-price"> $12,500</span>
+                      </span>
+                      <span>Blue</span>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
