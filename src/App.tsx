@@ -25,7 +25,7 @@ function App() {
                   <i className="fa fa-bars"></i>
                 </button>
                 <a className="navbar-brand" href="index.html">
-                  list<span>race</span>
+                  list<span>racess</span>
                 </a>
               </div>
 
