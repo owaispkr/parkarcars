@@ -25,7 +25,7 @@ function App() {
                   <i className="fa fa-bars"></i>
                 </button>
                 <a className="navbar-brand" href="index.html">
-                  PARKAR{' '}<span>{' '}cars</span>
+                  PARKAR <span> cars</span>
                 </a>
               </div>
 
@@ -103,9 +103,7 @@ function App() {
                     </Carousel>
                   </div>
                   <div className="single-explore-txt bg-theme-1">
-                    <h2>
-                      <a href="#">Toyota Prius Alpha</a>
-                    </h2>
+                    <h2>Toyota Prius Alpha </h2>
                     <p className="explore-rating-price">
                       <span>Hybrid</span>
                       <span className="explore-price-box">
@@ -121,21 +119,19 @@ function App() {
                 <div className="single-explore-item">
                   <div>
                     <Carousel showThumbs={false} dynamicHeight={true}>
-                    <img
+                      <img
                         src="https://parkarcars.blob.core.windows.net/cars/73265866.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
                         alt="explore image"
                       />
-                    <img
+                      <img
                         src="https://parkarcars.blob.core.windows.net/cars/7e4edb38-3e7b-47a0-8c69-a3620bc93f67-1024x576.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
                         alt="explore image"
                       />
-                   
+
                       <img
                         src="https://parkarcars.blob.core.windows.net/cars/731601_1.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
                         alt="explore image"
                       />
-
-                   
                     </Carousel>
                   </div>
                   <div className="single-explore-txt bg-theme-1">
