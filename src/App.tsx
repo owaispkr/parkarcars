@@ -25,7 +25,7 @@ function App() {
                   <i className="fa fa-bars"></i>
                 </button>
                 <a className="navbar-brand" href="index.html">
-                  list<span>racess</span>
+                  PARKAR{' '}<span>{' '}cars</span>
                 </a>
               </div>
 
@@ -88,17 +88,87 @@ function App() {
                   <div>
                     <Carousel showThumbs={false} dynamicHeight={true}>
                       <img
-                        src="src/assets/images/cars/Toyota2.jpg"
+                        src="https://parkarcars.blob.core.windows.net/cars/7e4edb38-3e7b-47a0-8c69-a3620bc93f67-1024x576.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
+                        alt="explore image"
+                      />
+                      <img
+                        src="https://parkarcars.blob.core.windows.net/cars/731601_1.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
                         alt="explore image"
                       />
 
                       <img
-                        src="src/assets/images/cars/Toyota1.jpg"
+                        src="https://parkarcars.blob.core.windows.net/cars/73265866.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
+                        alt="explore image"
+                      />
+                    </Carousel>
+                  </div>
+                  <div className="single-explore-txt bg-theme-1">
+                    <h2>
+                      <a href="#">Toyota Prius Alpha</a>
+                    </h2>
+                    <p className="explore-rating-price">
+                      <span>Hybrid</span>
+                      <span className="explore-price-box">
+                        Price
+                        <span className="explore-price"> $12,500</span>
+                      </span>
+                      <span>Blue</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className=" col-md-4 col-sm-6">
+                <div className="single-explore-item">
+                  <div>
+                    <Carousel showThumbs={false} dynamicHeight={true}>
+                    <img
+                        src="https://parkarcars.blob.core.windows.net/cars/73265866.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
+                        alt="explore image"
+                      />
+                    <img
+                        src="https://parkarcars.blob.core.windows.net/cars/7e4edb38-3e7b-47a0-8c69-a3620bc93f67-1024x576.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
+                        alt="explore image"
+                      />
+                   
+                      <img
+                        src="https://parkarcars.blob.core.windows.net/cars/731601_1.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
+                        alt="explore image"
+                      />
+
+                   
+                    </Carousel>
+                  </div>
+                  <div className="single-explore-txt bg-theme-1">
+                    <h2>
+                      <a href="#">Toyota Prius Alpha</a>
+                    </h2>
+                    <p className="explore-rating-price">
+                      <span>Hybrid</span>
+                      <span className="explore-price-box">
+                        Price
+                        <span className="explore-price"> $12,500</span>
+                      </span>
+                      <span>Blue</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className=" col-md-4 col-sm-6">
+                <div className="single-explore-item">
+                  <div>
+                    <Carousel showThumbs={false} dynamicHeight={true}>
+                      <img
+                        src="https://parkarcars.blob.core.windows.net/cars/731601_1.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
                         alt="explore image"
                       />
 
                       <img
-                        src="src/assets/images/cars/Toyota3.jpg"
+                        src="https://parkarcars.blob.core.windows.net/cars/73265866.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
+                        alt="explore image"
+                      />
+
+                      <img
+                        src="https://parkarcars.blob.core.windows.net/cars/7e4edb38-3e7b-47a0-8c69-a3620bc93f67-1024x576.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
                         alt="explore image"
                       />
                     </Carousel>
@@ -123,17 +193,17 @@ function App() {
                   <div>
                     <Carousel showThumbs={false} dynamicHeight={true}>
                       <img
-                        src="src/assets/images/cars/Toyota2.jpg"
+                        src="https://parkarcars.blob.core.windows.net/cars/731601_1.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
                         alt="explore image"
                       />
 
                       <img
-                        src="src/assets/images/cars/Toyota1.jpg"
+                        src="https://parkarcars.blob.core.windows.net/cars/73265866.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
                         alt="explore image"
                       />
 
                       <img
-                        src="src/assets/images/cars/Toyota3.jpg"
+                        src="https://parkarcars.blob.core.windows.net/cars/7e4edb38-3e7b-47a0-8c69-a3620bc93f67-1024x576.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
                         alt="explore image"
                       />
                     </Carousel>
@@ -158,17 +228,17 @@ function App() {
                   <div>
                     <Carousel showThumbs={false} dynamicHeight={true}>
                       <img
-                        src="src/assets/images/cars/Toyota2.jpg"
+                        src="https://parkarcars.blob.core.windows.net/cars/731601_1.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
                         alt="explore image"
                       />
 
                       <img
-                        src="src/assets/images/cars/Toyota1.jpg"
+                        src="https://parkarcars.blob.core.windows.net/cars/73265866.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
                         alt="explore image"
                       />
 
                       <img
-                        src="src/assets/images/cars/Toyota3.jpg"
+                        src="https://parkarcars.blob.core.windows.net/cars/7e4edb38-3e7b-47a0-8c69-a3620bc93f67-1024x576.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
                         alt="explore image"
                       />
                     </Carousel>
@@ -193,17 +263,17 @@ function App() {
                   <div>
                     <Carousel showThumbs={false} dynamicHeight={true}>
                       <img
-                        src="src/assets/images/cars/Toyota2.jpg"
+                        src="https://parkarcars.blob.core.windows.net/cars/731601_1.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
                         alt="explore image"
                       />
 
                       <img
-                        src="src/assets/images/cars/Toyota1.jpg"
+                        src="https://parkarcars.blob.core.windows.net/cars/73265866.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
                         alt="explore image"
                       />
 
                       <img
-                        src="src/assets/images/cars/Toyota3.jpg"
+                        src="https://parkarcars.blob.core.windows.net/cars/7e4edb38-3e7b-47a0-8c69-a3620bc93f67-1024x576.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
                         alt="explore image"
                       />
                     </Carousel>
@@ -228,87 +298,17 @@ function App() {
                   <div>
                     <Carousel showThumbs={false} dynamicHeight={true}>
                       <img
-                        src="src/assets/images/cars/Toyota2.jpg"
+                        src="https://parkarcars.blob.core.windows.net/cars/731601_1.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
                         alt="explore image"
                       />
 
                       <img
-                        src="src/assets/images/cars/Toyota1.jpg"
+                        src="https://parkarcars.blob.core.windows.net/cars/73265866.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
                         alt="explore image"
                       />
 
                       <img
-                        src="src/assets/images/cars/Toyota3.jpg"
-                        alt="explore image"
-                      />
-                    </Carousel>
-                  </div>
-                  <div className="single-explore-txt bg-theme-1">
-                    <h2>
-                      <a href="#">Toyota Prius Alpha</a>
-                    </h2>
-                    <p className="explore-rating-price">
-                      <span>Hybrid</span>
-                      <span className="explore-price-box">
-                        Price
-                        <span className="explore-price"> $12,500</span>
-                      </span>
-                      <span>Blue</span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className=" col-md-4 col-sm-6">
-                <div className="single-explore-item">
-                  <div>
-                    <Carousel showThumbs={false} dynamicHeight={true}>
-                      <img
-                        src="src/assets/images/cars/Toyota2.jpg"
-                        alt="explore image"
-                      />
-
-                      <img
-                        src="src/assets/images/cars/Toyota1.jpg"
-                        alt="explore image"
-                      />
-
-                      <img
-                        src="src/assets/images/cars/Toyota3.jpg"
-                        alt="explore image"
-                      />
-                    </Carousel>
-                  </div>
-                  <div className="single-explore-txt bg-theme-1">
-                    <h2>
-                      <a href="#">Toyota Prius Alpha</a>
-                    </h2>
-                    <p className="explore-rating-price">
-                      <span>Hybrid</span>
-                      <span className="explore-price-box">
-                        Price
-                        <span className="explore-price"> $12,500</span>
-                      </span>
-                      <span>Blue</span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className=" col-md-4 col-sm-6">
-                <div className="single-explore-item">
-                  <div>
-                    <Carousel showThumbs={false} dynamicHeight={true}>
-                      <img
-                        src="src/assets/images/cars/Toyota2.jpg"
-                        alt="explore image"
-                      />
-
-                      <img
-                        src="src/assets/images/cars/Toyota1.jpg"
-                        alt="explore image"
-                      />
-
-                      <img
-                        src="src/assets/images/cars/Toyota3.jpg"
+                        src="https://parkarcars.blob.core.windows.net/cars/7e4edb38-3e7b-47a0-8c69-a3620bc93f67-1024x576.jpg?sp=r&st=2024-03-08T08:51:54Z&se=2029-03-08T16:51:54Z&spr=https&sv=2022-11-02&sr=c&sig=oBi5VKu1%2FJ2Zwkb2qe5vagdO6jEcdh0ZK0vlSDTOyYQ%3D"
                         alt="explore image"
                       />
                     </Carousel>
