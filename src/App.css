@@ -45,3 +45,60 @@
 .read-the-docs {
     color: #888;
 }
+
+h2 {
+    font-size: 20px !important;
+}
+
+h1 {
+    font-size: 22px !important;
+}
+
+h4 {
+    font-size: 16px !important;
+    color: #3c3f42;
+}
+
+.badge {
+    padding: 6px 10px !important;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.bg-instock {
+    background-color: #90D26D;
+    color: white;
+}
+
+.bg-sold {
+    background-color: #ee6055;
+    color: white;
+}
+
+.car-price {
+    color: #00b4d8;
+    font-weight: 800;
+}
+
+.boundary {
+    border-left: 1px solid #dde0e4;
+}
+
+.button.loadmore {
+    color: #222831;
+    background-color: #DDDDDD;
+}
+
+button:hover {
+    border-color: transparent !important;
+}
+
+button[disabled].loadmore {
+    color: #B4B4B8;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
