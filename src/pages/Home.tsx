@@ -70,7 +70,7 @@ const Home: React.FC<Props> = () => {
                             <div>
                               <h2
                                 onClick={() => {
-                                  navigate(`/parkarcars/${car.id}/`);
+                                  navigate(`/${car.id}/`);
                                 }}
                               >
                                 {car.name}

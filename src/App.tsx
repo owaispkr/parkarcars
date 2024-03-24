@@ -53,8 +53,8 @@ function App() {
       </section>
       <BrowserRouter>
         <Routes>
-          <Route index path="/parkarcars/" element={<Home />} />
-          <Route index path="/parkarcars/:id/" element={<CarDetail />} />
+          <Route index path="/" element={<Home />} />
+          <Route index path="/:id/" element={<CarDetail />} />
         </Routes>
       </BrowserRouter>
     </>
