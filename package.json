@@ -3,7 +3,7 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
-    "homepage": "www.parkarcars.com",
+    "homepage": "www.parkarcars.com/parkarcars",
     "scripts": {
         "dev": "vite",
         "build": "tsc && vite build",
