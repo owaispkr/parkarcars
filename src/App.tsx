@@ -2,6 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
 import CarDetail from "./pages/CarDetail";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -39,10 +41,10 @@ function App() {
                   data-out="fadeOutUp"
                 >
                   <li className="scroll">
-                    <a href="#blog">About us</a>
+                    <a href="/parkarcars/about/">About us</a>
                   </li>
                   <li className="scroll">
-                    <a href="#contact">contact</a>
+                    <a href="/parkarcars/contact/">contact</a>
                   </li>
                 </ul>
               </div>
@@ -53,8 +55,10 @@ function App() {
       </section>
       <BrowserRouter>
         <Routes>
-          <Route index path="/" element={<Home />} />
-          <Route index path="/:id/" element={<CarDetail />} />
+          <Route index path="/parkarcars/" element={<Home />} />
+          <Route index path="/parkarcars/:id/" element={<CarDetail />} />
+          <Route index path="/parkarcars/about/" element={<About />} />
+          <Route index path="/parkarcars/contact/" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </>

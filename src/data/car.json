@@ -60,7 +60,7 @@
         "color": "White",
         "interior": "Grey",
         "seats": "5",
-        "inStock": true,
+        "inStock": false,
         "pictures": [
             "https://parkarcars.blob.core.windows.net/cars/2012-toyota-prius-alpha-1/428883368_7178975985555782_3091133800132659063_n.jpg",
             "https://parkarcars.blob.core.windows.net/cars/2012-toyota-prius-alpha-1/430354662_7549705738402265_861237301323203316_n.jpg",

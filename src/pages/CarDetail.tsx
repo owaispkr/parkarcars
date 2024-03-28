@@ -46,8 +46,8 @@ const CarDetail: React.FC<Props> = () => {
                 </div>
                 <div>
                   <div className="statistics-content">
-                    <span>$</span>
-                    <div className="counter">12000</div>
+                    <span className="car-price">$</span>
+                    <div className="counter car-price">12000</div>
                   </div>
                 </div>
               </div>
@@ -64,6 +64,19 @@ const CarDetail: React.FC<Props> = () => {
                       );
                     })}
                 </Carousel>
+
+                <div style={{marginTop: '24px' }} className="text-center">
+                    <p>
+                    Buy with confidence from us "Parkar Traders Ltd" Registered
+                    Motor Vehicle Trader (M244485). In business from last 10
+                    Years with so many satisfied customers.
+                  </p>
+                  <p>We can organize finance on very competitive price</p>
+                  <p>
+                    Mechanical insurance for 3 years is $1000. We use Janseen
+                    for mechanical insurance
+                  </p>
+                </div>
               </div>
               <div className="col-md-2" style={{ marginTop: "24px" }}>
                 <h3>Specifications</h3>
@@ -100,11 +113,11 @@ const CarDetail: React.FC<Props> = () => {
                   <div className="text-right">{car.seats}</div>
                 </div>
 
-                <h3 style={{ marginTop: "16px" }}>Feature highlights</h3>
+                <h3 style={{ marginTop: "24px" }}>Feature highlights</h3>
                 {car.features &&
                   car.features.map((feature: string) => {
                     return (
-                      <p>
+                      <p style={{ paddingTop: "8px" }}>
                         <img
                           width="24"
                           height="24"

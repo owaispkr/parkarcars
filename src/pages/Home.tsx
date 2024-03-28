@@ -59,7 +59,13 @@ const Home: React.FC<Props> = () => {
                             })}
                         </Carousel>
                       </div>
-                      <div className="single-explore-txt bg-theme-1">
+                      <div
+                        className="single-explore-txt bg-theme-1"
+                        onClick={() => {
+                          navigate(`/parkarcars/${car.id}/`);
+                        }}
+                        style={{ cursor: "pointer" }}
+                      >
                         <div className="text-left">
                           <div
                             style={{
@@ -68,13 +74,7 @@ const Home: React.FC<Props> = () => {
                             }}
                           >
                             <div>
-                              <h2
-                                onClick={() => {
-                                  navigate(`/${car.id}/`);
-                                }}
-                              >
-                                {car.name}
-                              </h2>
+                              <h2>{car.name}</h2>
                             </div>
                             <div>
                               <h2 className="car-price">${car.price}</h2>
